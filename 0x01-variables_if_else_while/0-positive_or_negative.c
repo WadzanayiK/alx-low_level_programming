@@ -5,7 +5,7 @@
 /*
  * main - Entry point
  *
- * Description: Prints if number is positive, zero or negative
+ *'Description: Prints if number is positive, zero or negative'
  *
  * Return: Always 0 (Success)
  */
@@ -15,6 +15,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 
 	if (n > 0)
 	{
